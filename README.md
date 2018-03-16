@@ -1,6 +1,10 @@
 # mm_HUE
 
 
+## Acknowledgments
+
+Huge thanks to https://github.com/studioimaginaire/phue for hacking the library !
+
 
 # phue: A Python library for Philips Hue
 
