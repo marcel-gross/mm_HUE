@@ -3,8 +3,10 @@
 
 ## Acknowledgments
 
-Huge thanks to https://github.com/studioimaginaire/phue for hacking the library !
+Huge thanks to https://github.com/studioimaginaire/phue for the library!
 
+<br><br>
+<ln><br>
 
 # phue: A Python library for Philips Hue
 
