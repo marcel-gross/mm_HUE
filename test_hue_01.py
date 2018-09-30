@@ -66,7 +66,7 @@ light_names["Bedroom"].brightness = 135
 light_names["Bedroom"].hue = 0
 light_names["Bedroom"].saturation = 216
 
-for light in ['Stairs', 'UpperHallRight']:
+for light in ['Bedroom', 'Salon Stand 1', , 'Salon Stand 2']:
     light_names[light].on = True
     light_names[light].hue = 27926
     light_names[light].saturation = 254
