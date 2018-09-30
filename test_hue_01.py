@@ -29,17 +29,17 @@ b = Bridge(ip_of_hue_bridge)
 # Get a dictionary with the light id as the key
 lights = b.get_light_objects('id')
 
-print "1 reac: " + str(lights[1].reachable)
-print "name: " + str(lights[1].name)
-print ""
+print ("1 reac: " + str(lights[1].reachable))
+print ("name: " + str(lights[1].name))
+print ("")
 
 # Get the name of light 1, set the brightness to 127  reachable
-print "name: " + str(lights[3].name)
-print "reac: " + str(lights[3].reachable)
-print "on  : " + str(lights[3].on)
-print "hue : " + str(lights[3].hue)
-print "bri : " + str(lights[3].brightness)
-print "sat : " + str(lights[3].saturation)
+print ("name: " + str(lights[3].name))
+print ("reac: " + str(lights[3].reachable))
+print ("on  : " + str(lights[3].on))
+print ("hue : " + str(lights[3].hue))
+print ("bri : " + str(lights[3].brightness))
+print ("sat : " + str(lights[3].saturation))
 
 #lights[3].name = 'Stairs'
 lights[3].brightness = 135
@@ -66,7 +66,7 @@ light_names["Bedroom"].brightness = 135
 light_names["Bedroom"].hue = 0
 light_names["Bedroom"].saturation = 216
 
-for light in ['Bedroom', 'Salon Stand 1', , 'Salon Stand 2']:
+for light in ['Bedroom', 'Salon Stand 1', 'Salon Stand 2']:
     light_names[light].on = True
     light_names[light].hue = 27926
     light_names[light].saturation = 254
